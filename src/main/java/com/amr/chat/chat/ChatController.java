@@ -17,7 +17,9 @@ public class ChatController {
     * */
     // to send message by any user
 
+
     @MessageMapping("/chat.sendMessage")
+
     /*
       this message mapping tells what the url that i want to use to invoke
       this method
